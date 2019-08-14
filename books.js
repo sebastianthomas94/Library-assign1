@@ -20,7 +20,7 @@ $(document).ready(function()
                 for(var i in data)
                     {
                         $("#loader").hide();
-                        output+='<td><div class="card" style="width: 18rem;"><center><img class="img-thumbnail" src="'+data[i].image+'"  width="250" height="250" id="photo"></center>';
+                        output+='<td><div class="card" style="width: 25rem;"><center><img class="img-thumbnail" src="'+data[i].image+'"  width="250" height="250" id="photo"></center>';
                         output+='<div class="card-body"><h5 class="card-title">'+data[i].title+'</h5>';
                         output+='<p class="card-text">By '+data[i].author+'</p></div></div></td>';
 
@@ -52,7 +52,7 @@ $(document).ready(function()
                 if (category == data[i].category)
                 {   console.log("hit");
                     $("#loader").hide();
-                    output+='<td><div class="card" style="width: 18rem;"><center><img class="img-thumbnail" src="'+data[i].image+'"  width="250" height="250" id="photo"></center>';
+                    output+='<td><div class="card" style="width: 25rem;"><center><img class="img-thumbnail" src="'+data[i].image+'"  width="250" height="250" id="photo"></center>';
                     output+='<div class="card-body"><h5 class="card-title">'+data[i].title+'</h5>';
                     output+='<p class="card-text">By '+data[i].author+'</p></div></div></td>';
 
